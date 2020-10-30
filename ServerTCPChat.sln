@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientTCPChat", "ClientTCPChat.csproj", "{0DB67729-E6AA-4B55-885B-5A47874A85BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE061976-824C-46A5-8EB6-B6F599B76364} = {BE061976-824C-46A5-8EB6-B6F599B76364}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerTCPChat", "..\ServerTCPChat\ServerTCPChat.csproj", "{BE061976-824C-46A5-8EB6-B6F599B76364}"
 EndProject
